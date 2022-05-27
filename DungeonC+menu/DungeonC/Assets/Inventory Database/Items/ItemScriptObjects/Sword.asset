@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemName: Sword
+  ID: 1
+  icon: {fileID: 21300000, guid: 8f28955d92038974a9b04aafaeea79b0, type: 3}
+  m_object: {fileID: 7249500222709585382, guid: 6abc84a1d4b66db42b7fe479bbecdf03, type: 3}
+  isStackable: 0
+  maxStackNumber: 1
+  description: sword
+  variety: 1
+  rarity: 1
+  buy_Price: []
+  sell_Price: []
+  clipOnUse: {fileID: 0}
+  playClipTimes: 0
+  coolDown: 0
+  consumableItemType: 0
+  consumableItemAttributes: []
+  useOnPickUp: 0
+  CDAllThisWhenUse: 0
+  CDAllConsumbleWhenUse: 0
+  equipmentPart: 1
+  equipmentItemAttributes:
+  - equipmentItemAttribute: {fileID: 11400000, guid: 6764bc16f5d2ce245883a12086f6ee1f, type: 2}
+    effectType: 2
+    value: 15
