@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
+  m_Name: Sword_l
+  m_EditorClassIdentifier: 
+  itemName: Sword_l
+  ID: 18
+  icon: {fileID: 21300000, guid: a2bcc88f94981eb4d8eceb8d65771717, type: 3}
+  m_object: {fileID: 6563449873268535761, guid: 24a2b9b8c2031fa49b23aff9f1bed165, type: 3}
+  isStackable: 0
+  maxStackNumber: 1
+  description: Legendary
+  variety: 1
+  rarity: 4
+  buy_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 45
+  sell_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 25
+  clipOnUse: {fileID: 0}
+  playClipTimes: 0
+  coolDown: 0
+  consumableItemType: 0
+  consumableItemAttributes: []
+  useOnPickUp: 0
+  CDAllThisWhenUse: 0
+  CDAllConsumbleWhenUse: 0
+  equipmentPart: 1
+  equipmentItemAttributes:
+  - equipmentItemAttribute: {fileID: 11400000, guid: 6764bc16f5d2ce245883a12086f6ee1f, type: 2}
+    effectType: 2
+    value: 45
+  - equipmentItemAttribute: {fileID: 11400000, guid: de65d68efbc67c041b5d476d98c29ea0, type: 2}
+    effectType: 3
+    value: 1

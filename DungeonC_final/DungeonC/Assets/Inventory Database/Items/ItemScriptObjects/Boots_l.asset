@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
+  m_Name: Boots_l
+  m_EditorClassIdentifier: 
+  itemName: Boots_l
+  ID: 21
+  icon: {fileID: 21300000, guid: 59404f171a3d5694fa1650a8c37fc39f, type: 3}
+  m_object: {fileID: 4189607129121898470, guid: e26a57b23715c2546bca287a9e158928, type: 3}
+  isStackable: 0
+  maxStackNumber: 1
+  description: Legendary
+  variety: 1
+  rarity: 4
+  buy_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 45
+  sell_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 25
+  clipOnUse: {fileID: 0}
+  playClipTimes: 0
+  coolDown: 0
+  consumableItemType: 0
+  consumableItemAttributes: []
+  useOnPickUp: 0
+  CDAllThisWhenUse: 0
+  CDAllConsumbleWhenUse: 0
+  equipmentPart: 7
+  equipmentItemAttributes:
+  - equipmentItemAttribute: {fileID: 11400000, guid: 2d12c73d79ae74d44818b77bf7dd84dd, type: 2}
+    effectType: 2
+    value: 25
+  - equipmentItemAttribute: {fileID: 11400000, guid: 6764bc16f5d2ce245883a12086f6ee1f, type: 2}
+    effectType: 2
+    value: 25
+  - equipmentItemAttribute: {fileID: 11400000, guid: ecc77f3279152e34cb0e4431dbb7c265, type: 2}
+    effectType: 2
+    value: 25
+  - equipmentItemAttribute: {fileID: 11400000, guid: de65d68efbc67c041b5d476d98c29ea0, type: 2}
+    effectType: 2
+    value: 2

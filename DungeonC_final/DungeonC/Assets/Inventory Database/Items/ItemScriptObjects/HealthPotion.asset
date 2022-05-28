@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
+  m_Name: HealthPotion
+  m_EditorClassIdentifier: 
+  itemName: HealthPotion
+  ID: 6
+  icon: {fileID: 21300000, guid: 117b17facff65dc42b1b57deb7c21551, type: 3}
+  m_object: {fileID: 1618834878195050521, guid: 11d1aa0b0905c7d468da8a3a007d74cd, type: 3}
+  isStackable: 1
+  maxStackNumber: 5
+  description: HealthPotion
+  variety: 0
+  rarity: 0
+  buy_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 5
+  sell_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 2
+  clipOnUse: {fileID: 0}
+  playClipTimes: 0
+  coolDown: 0
+  consumableItemType: 0
+  consumableItemAttributes:
+  - consumableItemAttribute: {fileID: 11400000, guid: 4aeb2b2f1f9963a4292ba2410603e606, type: 2}
+    effectType: 0
+    value: 30
+  useOnPickUp: 0
+  CDAllThisWhenUse: 0
+  CDAllConsumbleWhenUse: 0
+  equipmentPart: 0
+  equipmentItemAttributes:
+  - equipmentItemAttribute: {fileID: 11400000, guid: 4aeb2b2f1f9963a4292ba2410603e606, type: 2}
+    effectType: 0
+    value: 40
